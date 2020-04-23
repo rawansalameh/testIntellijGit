@@ -19,6 +19,14 @@ public class UniversityCourse {
         } else {
             students.add(studentname);
         }
+        
+public int getNumberOfRegsiteredStudents()
+{
+    int num = students.size();
+    return num;
+}
+
+
     }
 }
 
